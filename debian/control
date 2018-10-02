@@ -1,0 +1,20 @@
+Source: mercurial-extension-utils
+Section: python
+Priority: optional
+Maintainer: Christoph Mathys <eraserix@gmail.com>
+Build-Depends: debhelper (>= 11), python-all (>= 2.6.6-3~),
+ python-setuptools, dh-python
+Standards-Version: 4.2.1
+Homepage: http://pypi.python.org/pypi/mercurial_extension_utils
+X-Python-Version: all
+XB-Python-Version: ${python:Versions}
+
+Package: mercurial-extension-utils
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, mercurial
+Description: Contains functions for writing Mercurial extensions
+ Contains functions used by Mercurial extension mercurial-keyring. They are
+ mostly tiny utilities related to configuration processing or location
+ matching. They either extend Mercurial APIs a bit or support tasks which
+ aren't strictly Mercurial related, but happen repeatedly during extension
+ writing.

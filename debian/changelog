@@ -1,0 +1,34 @@
+mercurial-extension-utils (1.3.6-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump compat to 11 without changes.
+  * Increase std version to 4.2.1 without changes.
+
+ -- Christoph Mathys <eraserix@gmail.com>  Tue, 02 Oct 2018 21:58:02 +0200
+
+mercurial-extension-utils (1.3.4-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump compat level to 10.
+
+ -- Christoph Mathys <eraserix@gmail.com>  Sun, 04 Jun 2017 13:25:56 +0200
+
+mercurial-extension-utils (1.3.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Christoph Mathys <eraserix@gmail.com>  Sat, 17 Dec 2016 17:46:32 +0100
+
+mercurial-extension-utils (1.3.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update d/watch to use pypi.debian.net.
+  * Policy bumped to 3.9.8 without changes.
+
+ -- Christoph Mathys <eraserix@gmail.com>  Sun, 29 May 2016 12:56:00 +0200
+
+mercurial-extension-utils (1.2.0-1) unstable; urgency=low
+
+  * Initial release. (Closes: #820217)
+
+ -- Christoph Mathys <eraserix@gmail.com>  Mon, 11 Apr 2016 18:24:19 +0200
