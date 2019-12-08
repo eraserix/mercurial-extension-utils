@@ -2,7 +2,7 @@
 
 from setuptools import setup, find_packages
 
-VERSION = '1.3.6'
+VERSION = '1.5.0'
 LONG_DESCRIPTION = open("README.txt").read()
 INSTALL_REQUIRES = []
 
@@ -28,6 +28,7 @@ setup(
         'License :: DFSG approved',
         'License :: OSI Approved :: BSD License',
         'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
         'Topic :: Software Development :: Libraries :: Python Modules',
         'Topic :: Software Development :: Version Control',
